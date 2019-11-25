@@ -36,3 +36,7 @@ https://github.com/fangihsiao/InfoGAN-Tensorflow
 1- go to directory you want to have the code in jupiter terminal :
 git clone https://github.com/fangihsiao/InfoGAN-Tensorflow
 
+
+-----------------------------  EHR ------------------
+https://github.com/mp2893/medgan
+
