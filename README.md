@@ -36,6 +36,9 @@ https://github.com/fangihsiao/InfoGAN-Tensorflow
 1- go to directory you want to have the code in jupiter terminal :
 git clone https://github.com/fangihsiao/InfoGAN-Tensorflow
 
+----------------------- IMPLEMENT SIMPLE GAN  PYTHORCH OR TENSORFLOW
+https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f
+
 
 -----------------------------  EHR ------------------
 https://github.com/mp2893/medgan
