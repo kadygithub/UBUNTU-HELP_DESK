@@ -24,10 +24,22 @@ check version in python :
 conda create -n tensorflow_env2 tensorflow==1.14
 conda activate tensorflow_env2
 
----------------------------  tensorflow gpu 
+---------------------------  tensorflow gpu  tensorflow version 2
 conda create --name tf__gpu tensorflow-gpu
 
+-------------------------  tensorflow version 1, cudaa 10.2 cuDNN: 7.6.5
+conda activate tf-v1__gpu
 
+
+
+---------------------------------  Gpu version of tensorflow
+conda activate tf__gpu   #version tensorflow 2.0.0
+
+anaconda-navigator 
+
+
+---------------------  panda 
+conda install -c anaconda pandas
 
 
 ------------------------  implementing InfoGAN ----------------------
@@ -42,4 +54,18 @@ https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-
 
 -----------------------------  EHR ------------------
 https://github.com/mp2893/medgan
+
+
+------------------------ cuda and cuDNN --------------------
+Check the CUDA version:
+
+cat /usr/local/cuda/version.txt
+and cuDNN version:
+
+grep CUDNN_MAJOR -A 2 /usr/local/cuda/include/cudnn.h
+
+installation process: 
+
+----------------- docker image : tensorflow+cuda+cudnn
+https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible
 
