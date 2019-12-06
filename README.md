@@ -69,3 +69,8 @@ installation process:
 ----------------- docker image : tensorflow+cuda+cudnn
 https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible
 
+
+---------------------pix2pix ----------------------
+https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb
+
+
